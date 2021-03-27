@@ -1,0 +1,27 @@
+*{
+	font: 14px "Segoe UI" , Tahoma, Verdana, Tahoma, Arial, "Helvetica Neue" , Helvetica, Sans-Serif;
+}
+.nav{
+	background-color: orange;
+	padding-bottom: 10px;
+}
+.nav h2{
+	font-weight: 600;
+	padding-left: 20px;
+}
+#right_bar .col-md-4{
+	background-color: brown;
+}
+#right_bar .col-md-4 p{
+	color: #fff;
+	padding: 15px;
+}
+#right_bar .col-md-4 a{
+	color: #fff;
+	text-decoration: none;
+}
+#right_bar .col-md-4 p:hover{
+	transition: 1s;
+	background-color: orange;
+     transform: rotate(-5deg);
+}

@@ -1,0 +1,27 @@
+body{
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 1300px;
+}
+#login .col-md-5{
+	background-color: #fff;
+	margin-top: 100px;
+	padding: 25px;
+	font: 12px "Segoe UI" , Tahoma, Verdana, Tahoma, Arial, "Helvetica Neue" , Helvetica, Sans-Serif;
+}
+#login .col-md-5 input[type="text"],[type="date"], [type="password"],[type="email"]{
+	width: 100%;
+	padding: 8px;
+	border: 1px solid steelblue;
+}
+#login .col-md-5 button{
+	padding: 10px;
+	width: 100px;
+	background-color: #fecb0e;
+	border: none;
+	color: #fff;
+}
+#login .col-md-5 input:hover{
+	box-shadow: inset 2px 2px 2px 2px rgba(0,0,0,0.2);
+	transition: 0.5s;
+}
